@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificacion-correo</title>
+</head>
+<style>
+
+    body{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: inherit;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: #059E97;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: self-end;
+        height: 15rem;
+    }
+
+
+    .contenedor{
+        width: 100%;
+        max-width: 60rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .img-rapi{
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .des_transaction{
+        background-color: #F6F6F6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-weight: 600;
+        color: #B5B5B5;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .border-des_transaction{
+        border-left: 0.2rem solid #B5B5B5;
+        border-right: 0.2rem solid #B5B5B5;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 5rem;
+        }
+    th, td {
+        border: 0.1rem solid #dddddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #059E97;
+        color: white;
+    }
+
+    tr{
+        color: #B5B5B5;
+        font-weight: 600;
+        font-size: small;
+        height: 4rem;
+    }
+
+    .table_detalles{
+        margin-top: 6rem;
+    }
+
+    .table_detalles h2{
+        color: #059E97;
+    }
+
+    .total-table_detalles{
+        color: #059E97;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .terminos_condiciones h3{
+        color: #059E97;
+    }
+
+    .terminos_condiciones p{
+        color: #B5B5B5;
+        font-size: small;
+    }
+
+    .cod_barra{
+        height: 3rem;
+        opacity: 0.5;
+    }
+
+    .icon_calendario{
+        height: 3rem;
+        opacity: 0.5;
+    }
+
+    .icon_money{
+        height: 3rem;
+        opacity: 0.5;
+    }
+
+</style>
+<body>
+    <header class="contenedor">
+        <img src="https://rapimoney.pe/assets/logo-rapimoney-Bd3vJn4i.png" alt="" class="img-rapi">
+    </header>
+    <section class="contenedor des_transaction">
+        <div>
+            <img src="https://tar.mx/apps/barras/barras.png" alt="" class="cod_barra">
+            <p>Código de Pago</p>
+            <p>8912-395-923</p>
+        </div>
+        <div class="border-des_transaction">
+            <img src="https://cdn.icon-icons.com/icons2/2507/PNG/512/calendar_icon_150693.png" alt="" class="icon_calendario">
+            <p>Fecha:</p>
+            <p>Jul 28, 2024</p>
+        </div>
+        <div>
+            <img src="https://static.vecteezy.com/system/resources/previews/017/785/212/non_2x/money-icon-on-transparent-background-free-png.png" alt="" class="icon_money">
+            <p>Total:</p>
+            <p>S/. 2500.00</p>
+        </div>
+    </section>
+    <section class="contenedor table_detalles">
+        <h2>Detalles de pago</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Descripción</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Recarga</td>
+                    <td>Recarga de 2717.4  con una comisión del 8%</td>
+                    <td>2500.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="total-table_detalles">
+                    <td>Total</td>
+                    <td>Total de transacciones</td>
+                    <td>S/. 2500.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="contenedor terminos_condiciones">
+        <h3>Terminos y Condiciones</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+</body>
+</html>
